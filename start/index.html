@@ -16,9 +16,9 @@
 		<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
 		<script type="text/javascript">
-			passwordDiv = '<div class="row stuff" id="password"> <p class="space"></p> <h3> Shifters, Derailleur, Crankshaft. </h3> <h3> All components of this. </h3> <h3> Inspect yours for a code. </h3> <p id="error"> </p><p><input type="text" name="firstname" id="codefield"></p> <p id="go"><a id="passwordButton" class="btn-lg btn-info">Go!</a></p> </div>';
+			passwordDiv = '<div class="row stuff" id="password"> <p class="space"></p> <h3> .tfahsknarC, ruelliareD, sretfihS </h3><p><input type="text" name="firstname" id="codefield"></p> <p id="go"><a id="passwordButton" class="btn-lg btn-info">Go!</a></p> </div>';
 
-			clueDiv = '<div class="row stuff" id="clue"> <p class="space"></p> <h3 class="first"> I may be electrical </h3> <h3 class="second"> But I sure act natural </h3> <h3 class="first"> I can move a lot of air </h3> <h3 class="second"> Although some say my price is unfair </h3> <h3 class="first"> Look under my root </p> <h3 class="second"> To find your next clue! </h3> </div>';
+			clueDiv = '<div class="row stuff" id="clue"> <p class="space"></p> <h3 class="first"> Time for a top shelf bottle. </h3> </div>';
 			$(document).ready(function(){
 
 				$("#startButton").on('click', function() {
@@ -30,7 +30,7 @@
 				});
 
 				$(document).on('click', '#passwordButton', function() {
-					if ( $('#codefield').val().trim() != "228") {
+					if ( $('#codefield').val().trim() != "822") {
 						$("#error").text("Incorrect code.");
 						return;
 					}
@@ -54,7 +54,7 @@
 	</head>
 	<style>
 		body { 
- 		  background: url(http://i.ytimg.com/vi/ajdVAdjxehQ/maxresdefault.jpg) no-repeat center center fixed; 
+ 		  background: url(bkg.png) no-repeat center center fixed; 
       -webkit-background-size: cover
   	  -moz-background-size: cover;
 		  -o-background-size: cover;
@@ -134,11 +134,12 @@
 		<div class="container">
 			<div class="row stuff" id="start">
 				<p class="space"></p>
-        		<h1> Welcome to your mini adventure! </h1>
+        		<h1> Welcome to your mini adventure! pt. 2!</h1>
         		<h5> gj getting here! </h5>
-        		<p id="eh"> hope you enjoy haha </p>
+        		<h5> Excellent retention! Let's see if you can keep it up! </h5>
+        		<h1> The letter is R.</h1>
         		<br>
-        		<p><a id="startButton" class="btn-lg btn-info">Start! </a></p>
+        		<p><a id="startButton" class="btn-lg btn-info">OK! </a></p>
       		</div>
 		</div>
 	</body>
